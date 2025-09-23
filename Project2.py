@@ -1,8 +1,4 @@
-#Hello guys! Whoever finish the project, please delete this comments.
-#If Joshua finishes first, please leave a space for Nelbat to add his part.
-#If Nelbat finishes first, please leave a space for Joshua to add his part.
-#If you have any questionsor when you finished the project, please send me a mail.
-
+#Orcun's Part
 p1_wins = 0
 p2_wins = 0
 draws = 0
@@ -13,6 +9,7 @@ choices = ["rock", "paper", "scissors"]
 while False:
     print(f" Round {round_number} ")
     
+#Joshua's Part
 # Define choices for player 1 and player 2
 p1_choice = input("Player 1, enter your choice (1=Rock, 2=Paper, 3=Scissors): ")
 p2_choice = input("Player 2, enter your choice (1=Rock, 2=Paper, 3=Scissors): ")
