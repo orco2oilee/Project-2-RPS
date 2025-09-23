@@ -45,11 +45,4 @@ if again != "y":
     else:
         print("It's an overall tie!")
 
-if p1_wins > p2_wins:
-    print("Overall Winner: Player 1!")
-elif p2_wins > p1_wins:
-    print("Overall Winner: Player 2!")
-else:
-    print("It's an overall tie!")
-
 
