@@ -3,12 +3,14 @@ p1_wins = 0
 p2_wins = 0
 draws = 0
 round_number = 1
+choices = ["1", "2", "3", "rock", "paper", "scissors", "Rock", "Paper", "Scissors"]
 
-choices = ["rock", "paper", "scissors"]
+while True:
+    print(f"\n Round {round_number} ")
+    print("Choices: 1=Rock, 2=Paper, 3=Scissors")
+    break
+#Nelbat's Part
 
-while False:
-    print(f" Round {round_number} ")
-    
 #Joshua's Part
 # Define choices for player 1 and player 2
 p1_choice = input("Player 1, enter your choice (1=Rock, 2=Paper, 3=Scissors): ")
@@ -49,6 +51,5 @@ elif p2_wins > p1_wins:
     print("Overall Winner: Player 2!")
 else:
     print("It's an overall tie!")
-    
-    round_number += 1
+
 
