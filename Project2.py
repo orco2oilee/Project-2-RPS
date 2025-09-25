@@ -30,10 +30,7 @@ while True:
     elif (
         (p1_choice == "1" and p2_choice == "3") or
         (p1_choice == "2" and p2_choice == "1") or
-        (p1_choice == "3" and p2_choice == "2") or
-        (p1_choice == "rock" and p2_choice == "scissors") or
-        (p1_choice == "paper" and p2_choice == "rock") or
-        (p1_choice == "scissors" and p2_choice == "paper")
+        (p1_choice == "3" and p2_choice == "2") 
     ):
         print("Player 1 wins this round!\n")
         p1_wins += 1
