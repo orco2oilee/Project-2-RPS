@@ -1,4 +1,4 @@
-# Orcun's Part (Part 1)
+# Orcun's Part 
 p1_wins = 0
 p2_wins = 0
 draws = 0
@@ -8,7 +8,7 @@ choices = ["1", "2", "3", "rock", "paper", "scissors"]
 while True:
     print(f"\n Round {round_number} \nChoices: 1=Rock, 2=Paper, 3=Scissors")
     
-    # Nelbat's Part (düzeltilmiş)
+    #Nelbat's Part
     p1_choice = input("Player 1, please enter your choice 1=Rock, 2=Paper, 3=Scissors or 'quit' to exit: ").lower()
     if p1_choice == "quit":
         break
@@ -23,7 +23,7 @@ while True:
         print("Invalid choice. Please choose 1, 2, or 3, rock, paper, or scissors.")
         p2_choice = input("Player 2, please enter your choice again: ").lower()
     
-    # Joshua's Part (Part 3)
+    # Joshua's Part 
     if p1_choice == p2_choice:
         print("It's a draw!\n")
         draws += 1
@@ -43,7 +43,7 @@ while True:
 
     round_number += 1
     
-    # Oyun devam kontrolü
+    
     again = input("Do you want to play again? (y/n): ").lower()
     if again != "y":
         print("\n--- Final Results ---")
